@@ -10,7 +10,7 @@ The Inventory Application is a web-based application designed to manage shop inv
 - **User-Friendly Interface**: Provides a simple and intuitive interface for users.
 - **Autonated Invoicing**: Automatically generates invoices upon successful payment.
 - **Retrieval Process**: Allows customers to book retrieval slots based on availability.
-- 
+  
 ### Technologies
 The application is built using the following technologies:
 ### Frontend: HTML, CSS, JavaScript, React, Bootstrap, jQuery 
