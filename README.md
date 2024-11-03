@@ -13,9 +13,9 @@ The Inventory Application is a web-based application designed to manage shop inv
 - 
 ### Technologies
 The application is built using the following technologies:
-### Frontend: HTML, CSS, JavaScript, React, Bootstrap, jQuery -
-###Backend: PHP CodeIgniter
-##Database: MySQL
+### Frontend: HTML, CSS, JavaScript, React, Bootstrap, jQuery 
+### Backend: PHP CodeIgniter
+### Database: MySQL
 ### Installation
 To install and run the application, follow these steps:
 1. Clone the repository to your local machine.
