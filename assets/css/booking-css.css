@@ -1,0 +1,183 @@
+.orange-text{
+    color: #f06b38;
+}
+.line-through{
+    text-decoration-line: line-through;
+}
+.info-div{
+    margin-bottom: 20px;
+}
+.info-div p{
+    margin-bottom: 0px;
+}
+.primary-link{
+    color: #56A5EC!important;
+}
+.input-group label{
+    width: 100%;
+}
+.input-group .form-control{
+    border-top-left-radius: 50px!important;
+    border-bottom-left-radius: 50px!important;
+}
+.btn:focus{
+    box-shadow: none;
+    outline: 0;
+}
+.offer-input{
+    position: relative;
+}
+.offer-input .form-control{
+    padding-left: 45px;
+}
+.offer-icon{
+    position: absolute;
+    left: 20px;
+    bottom: 18px;
+    z-index: 9;
+}
+.booking-box{
+    background: transparent linear-gradient(180deg, #0C2134 0%, #1C3E5D 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border: 1px solid #8F9FAE;
+    border-radius: 9px;
+    padding: 30px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.booking-box hr{
+    border-color: #707070;
+    margin: 1.5rem 0px!important;
+}
+.booking-box .line-through{
+    font-family: Archivo-Bold;
+}
+.booking-box h3{
+    font-size: 21px;
+    font-family: Archivo-Bold;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.booking-box p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.booking-box p small{
+    font-size: 13px!important;
+}
+.grey-info-tag{
+    background-color: #8F9FAE;
+    border-radius: 35px;
+    padding: 12px 20px;
+    display: inline-flex;
+    align-items: center;
+}
+.grey-info-tag p{
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.radio-border-box-margin{
+    margin-bottom: 20px;
+}
+.radio-border-box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 10px #5E5E5E40;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px 10px;
+    height: 100%;
+}
+.radio-border-box.radio-active{
+    background: transparent linear-gradient(180deg, #20405E 0%, #0C2134 100%) 0% 0% no-repeat padding-box;
+}
+.radio-border-box p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.radio-border-box.radio-active p{
+    color: #fff;
+}
+.radio-border-box .custom-control {
+    display: inline-block;
+    margin-bottom: 20px;
+    min-height: 2rem;
+    padding-left: 2rem;
+}
+.radio-border-box .custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color: transparent;
+    border-color: #fff;
+}
+.radio-border-box .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.custom-control-label{
+    cursor: pointer;
+}
+.radio-border-box .custom-control-label::before {
+    top: 0rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 2px solid #5A5C5D;
+}
+.radio-border-box .custom-control-label::after {
+    top: 1px;
+    left: 1px;
+    width: 31px;
+    height: 31px;
+}
+.radio-border-box .custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-image: url('./images/booking/check.png');
+}
+.radio-border-box .custom-control-input:active~.custom-control-label::before {
+    background-color: transparent;
+}
+.radio-border-box .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: none;
+}
+.custome-padding-left{
+    padding-left: 50px;
+}
+.custome-padding-right{
+    padding-right: 50px;
+}
+.custome-border-left::before{
+    content: '';
+    display: block;
+    border-left: 1px solid #dee2e6!important;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
+/*responsive css*/
+
+
+@media only screen and (max-width: 1200px) {
+    .booking-box {
+        padding: 25px 10px;
+    }
+    .custome-padding-left{
+        padding-left: 15px;
+    }
+    .custome-padding-right{
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .custome-border-left::before{
+        display: none;
+    }
+
+}

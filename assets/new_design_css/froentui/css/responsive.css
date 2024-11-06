@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+15. Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1600px){ 
+   
+
+}
+@media (max-width: 1980px){
+    .container {
+    max-width: 1720px;
+}
+}
+@media (max-width: 1720px){
+    .container {
+    max-width: 1140px;
+}
+}
+
+
+@media only screen and (min-width : 1600px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+
+}
+@media only screen and (max-width: 1300px) {
+
+
+}
+
+@media only screen and (max-width: 980px) {
+ .navbar-collapse  {
+    background-color: #f8f9ff;
+    padding: 20px;
+}
+
+}
+@media only screen and (max-width: 800px) {
+
+}
+@media only screen and (max-width: 768px) {
+    .date-box {
+        padding: 3px;
+    margin-bottom: 8px;
+    height: auto;
+    min-height: 57px;
+}
+.card-inner-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cust-card {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.date-box  .text-sky-blue {
+    color: #16517B;
+    font-size: 10px;
+}
+ .footer-title {
+    margin-bottom: 6px;
+}
+.footer-link{
+	margin-bottom: 30px;
+}
+.multisteps-form__title {
+    font: normal normal bold 25px/48px Segoe UI;
+}
+.row {
+    margin: -8px;
+}
+.multisteps-form__progress-btn {
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    position: relative;
+    padding-top: 20px;
+    color: #909095;
+    text-indent: 0px;
+    border: none;
+    background-color: transparent;
+    outline: none !important;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 20px 2px 0px;
+}
+}
+@media (min-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px) {
+  
+
+}
+    
+
+@media only screen and (max-width: 590px) {
+
+}
+@media (min-width: 576px){
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+}
+@media only screen and (max-width: 400px) {
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 321px){
+
+}
+
+
+
+
+
+
+
