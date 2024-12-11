@@ -1,0 +1,16 @@
+[11-Jun-2021 05:12:25 GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 434
+[11-Jun-2021 05:12:27 GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 434
+[11-Jun-2021 05:33:56 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 561
+[11-Jun-2021 05:34:26 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 561
+[11-Jun-2021 05:35:52 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 561
+[11-Jun-2021 05:37:11 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 561
+[11-Jun-2021 05:43:50 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 560
+[11-Jun-2021 05:44:00 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/views/inventory_items.php on line 560
+[11-Jun-2021 13:48:30 GMT] PHP Parse error:  syntax error, unexpected end of file in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 2472
+[14-Jun-2021 06:30:51 GMT] PHP Parse error:  syntax error, unexpected ''t' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 871
+[15-Jun-2021 12:54:48 GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1385
+[15-Jun-2021 12:55:00 GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1385
+[15-Jun-2021 12:55:14 GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1385
+[15-Jun-2021 13:01:29 GMT] PHP Fatal error:  Cannot redeclare Customer::transaction_cancel() in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1439
+[15-Jun-2021 13:02:07 GMT] PHP Fatal error:  Cannot redeclare Customer::transaction_cancel() in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1439
+[15-Jun-2021 13:02:09 GMT] PHP Fatal error:  Cannot redeclare Customer::transaction_cancel() in /home/safestor/public_html/test_new_design/application/modules/customer/controllers/Customer.php on line 1439

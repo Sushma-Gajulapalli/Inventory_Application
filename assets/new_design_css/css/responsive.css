@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+15. Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1600px){ 
+   
+
+}
+@media only screen and (min-width : 1600px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (max-width: 1200px) {
+  	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: .7rem;
+	    padding-left: .7rem;
+	}
+	.navbar-nav .nav-link .round-btn {
+    	padding: 6px 20px;
+	}
+	.title h2.small {
+	    font-size: 2.6rem;
+	}
+	.title h2 {
+	    font-size: 2.8rem;
+	}
+	.hero-sec h1 {
+    	font-size: 2.6rem;
+   		line-height: 3.5rem;
+	}
+	.hero-img {
+	    max-width: 100%;
+	    margin-left: 0%;
+	}
+	.side-img1{
+	    left: -85px;
+	}
+	.side-img2{
+	    right: -30px;
+	}
+	.side-img3{
+	    right: -10px;
+	}
+	.side-img4{
+	    left: -30px;
+	}
+	.side-img5{
+	    left: -90px;
+	}
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px){ 
+	.mini-title {
+    	font-size: 1.1rem;
+	}
+	.listing h3 {
+    	font-size: .8rem;
+	}
+}
+
+
+
+
+
+
+
+
+

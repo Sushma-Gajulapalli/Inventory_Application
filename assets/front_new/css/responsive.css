@@ -1,0 +1,204 @@
+/*--------------------------------------------------------------
+15. Media queries
+--------------------------------------------------------------*/
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1600px){ 
+   
+
+}
+@media only screen and (min-width : 1600px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (max-width: 1200px) {
+  	.navbar-expand-lg .navbar-nav .nav-link {
+	    padding-right: .7rem;
+	    padding-left: .7rem;
+	}
+	.navbar-nav .nav-link .round-btn {
+    	padding: 6px 20px;
+	}
+	.title h2.small {
+	    font-size: 2.6rem;
+	}
+	.title h2 {
+	    font-size: 2.8rem;
+	}
+	.hero-sec h1 {
+    	font-size: 2.6rem;
+   		line-height: 3.5rem;
+	}
+	.hero-img {
+	    max-width: 100%;
+	    margin-left: 0%;
+	}
+	.side-img1{
+	    left: -85px;
+	}
+	.side-img2{
+	    right: -30px;
+	}
+	.side-img3{
+	    right: -10px;
+	}
+	.side-img4{
+	    left: -30px;
+	}
+	.side-img5{
+	    left: -90px;
+	}
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px){ 
+	.mini-title {
+    	font-size: 1.1rem;
+	}
+	.listing h3 {
+    	font-size: .8rem;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-collapse{
+		background-color: #fff;
+    	position: absolute;
+	    width: 100%;
+	    top: 75px;
+	    z-index: 99;
+	}
+	.navbar-nav{
+    	padding: 10px 20px;
+    	box-shadow: 0px 9px 10px #0000001a;
+	}
+  	.navbar-nav .nav-item{
+  		width: 100%;
+    	text-align: left;
+	}
+	.navbar .nav-item .dropdown-menu {
+    	border: 1px solid #0000000d;
+    	box-shadow: none;
+	}
+	.about-side-img{
+	    min-height: 200px;
+	    border-radius: 5px;
+	}
+	.about-side-img.right-img{
+	    border-radius: 5px;
+	}
+
+}
+@media only screen and (min-width: 991px) {
+	.dropdown-toggle::after{
+    	display: none;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.blog-bg-1 {
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: block;
+   
+    transition: all 0.5s ease
+}
+	.side-img1{
+	    left: 0px;
+	    top: 0px;
+	}
+	.side-img2{
+	    right: 0px;
+	    bottom: 0px;
+	    z-index: -1;
+	}
+	.side-img3{
+	    right: 0px;
+	}
+	.side-img4{
+	    left: 0px;
+	    bottom: -25%;
+	}
+	.side-img5{
+	    left: 0px;
+	    top: auto;
+    	bottom: -35px;
+	}
+	.about-absolute-img.side-img2{
+    	bottom: -180px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) {
+   
+}
+@media only screen and (max-width: 640px) {
+
+}
+    
+
+@media only screen and (max-width: 590px) {
+	.sec-pad {
+    	padding: 40px 0px;
+	}
+	footer{
+    	padding: 30px 0px;
+	}
+	.hero-sec h1 {
+	    font-size: 2rem;
+	    line-height: 2.5rem;
+	}
+	.title p {
+	    margin-bottom: 5px;
+	}
+	.title h2 {
+	    font-size: 2rem;
+	    margin-bottom: 30px;
+	}
+	.title h2.small {
+	    font-size: 1.6rem;
+	    line-height: 2rem;
+	}
+	.flow-box img{
+		height: 75px;
+		width: auto;
+	}
+	.flow-box h3 {
+    	font-size: 2rem;
+    	margin-bottom: 5px;
+	}
+	.flow-box p {
+    	font-size: 17px;
+	}
+	.logo{
+		height: 50px;
+		width: auto;
+	}
+}
+@media (min-width: 576px){
+
+}
+
+@media only screen and (max-width: 480px) {
+
+
+}
+@media only screen and (max-width: 400px) {
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media only screen and (max-width: 340px) {
+
+}
+@media screen and (max-width: 321px){
+
+}
+
+
+
+
+
+
+
